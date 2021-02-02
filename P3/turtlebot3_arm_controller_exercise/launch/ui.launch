@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+
+<launch>
+  <arg name="ns" default="turtlebot3" />
+
+  <!-- launch RViz -->
+  <node name="$(anon rviz)" pkg="rviz" type="rviz" args="-d $(find turtlebot3_arm_controller_exercise)/config/arm_controller.rviz" ns="$(arg ns)" />
+
+  <!-- launch rqt -->
+  <include file="$(find turtlebot3_ui_launch)/launch/rqt.launch">
+    <arg name="ns" value="$(arg ns)" />
+    <arg name="rqt_args" value="" />
+    <arg name="rqt_perspective_path" value="$(find turtlebot3_arm_controller_exercise)/config/arm_controller.perspective" />
+  </include>
+</launch>
