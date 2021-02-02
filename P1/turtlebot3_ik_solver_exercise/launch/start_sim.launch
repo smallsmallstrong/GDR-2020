@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+
+<launch>
+  <arg name="robot_name" default="turtlebot3" />
+
+  <!-- start simulation -->
+  <include file="$(find tuda_turtlebot3_gazebo)/launch/turtlebot3_only_arm.launch">
+    <arg name="robot_name" value="$(arg robot_name)" />
+    <arg name="paused" value="False" />
+    <arg name="gazebo_gui" value="False" />
+  </include>
+
+  <!-- launch ui -->
+  <include file="$(find turtlebot3_ik_solver_exercise)/launch/ui.launch">
+    <arg name="ns" value="$(arg robot_name)" />
+  </include>
+
+  <!-- start ik solver node -->
+  <include file="$(find turtlebot3_ik_solver_exercise)/launch/ik_solver_node.launch">
+    <arg name="ns" value="$(arg robot_name)" />
+  </include>
+</launch>

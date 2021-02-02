@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+
+<launch>
+  <arg name="robot_name" default="turtlebot3" />
+
+  <!-- start ik solver node -->
+  <include file="$(find turtlebot3_ik_solver_exercise)/launch/ik_solver_node.launch">
+    <arg name="ns" value="$(arg robot_name)" />
+  </include>
+
+  <!-- start ik solver -->
+  <include file="$(find turtlebot3_ik_solver_exercise)/launch/ik_solver.launch">
+    <arg name="ns" value="$(arg robot_name)" />
+  </include>
+</launch>

@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+
+<launch>
+  <node name="$(anon rviz)" pkg="rviz" type="rviz" args="-d $(find turtlebot3_ik_solver_exercise)/config/ik_solver.rviz" />
+</launch>

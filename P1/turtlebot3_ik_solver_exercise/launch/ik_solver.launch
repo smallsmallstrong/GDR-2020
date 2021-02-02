@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+
+<launch>
+  <arg name="ns" default="turtlebot3" />
+
+  <group ns="$(arg ns)">
+    <!-- start octave code -->
+    <node name="turtlebot3_ik_solver_octave" pkg="turtlebot3_ik_solver_exercise" type="ik_solver_octave.sh" args="$(find turtlebot3_ik_solver_exercise)" output="screen" />
+  </group>
+</launch>

@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+
+<launch>
+  <arg name="ns" default="turtlebot3" />
+
+  <group ns="$(arg ns)">
+    <!-- load config into parameter server -->
+    <rosparam file="$(find turtlebot3_ik_solver_exercise)/config/ik_solver_config.yaml" command="load" />
+
+    <!-- start ik solver node -->
+    <node name="turtlebot3_ik_solver" pkg="turtlebot3_ik_solver_exercise" type="ik_solver_node" output="screen" />
+
+    <!-- start joystick node -->
+    <node name="turtlebot3_ik_solver_joy" pkg="turtlebot3_ik_solver_exercise" type="ik_solver_joy_node" output="screen" />
+  </group>
+</launch>

@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+
+<launch>
+  <arg name="ns" default="turtlebot3" />
+
+  <group ns="$(arg ns)">
+    <!-- start joystick node -->
+    <node name="joy" pkg="joy" type="joy_node">
+      <param name="~dev" value="/dev/input/js0"/>
+      <param name="~deadzone" value="0.1" />
+      <param name="~autorepeat_rate" value="15.0" />
+    </node>
+  </group>
+</launch>

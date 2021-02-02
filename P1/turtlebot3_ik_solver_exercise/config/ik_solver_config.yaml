@@ -1,0 +1,32 @@
+ik:
+  update_rate: 30.0 # [Hz]
+  base_frame: "arm_link_1"
+  endeffector_frame: "gripper_grasp_link"
+
+  marker_scale: 0.2
+  
+  reuse_ik_solution: True
+
+  endeffector_speed: 0.2
+  speed_scale: 1.0
+
+  joints:
+    - "arm_joint_1"
+    - "arm_joint_2"
+    - "arm_joint_3"
+    - "arm_joint_4"
+
+  fixed_joints:
+    - "gripper_servo_joint"
+    - "gripper_finger_joint_1"
+    - "gripper_finger_joint_2"
+
+  links:
+    - "arm_link_1"
+    - "arm_link_2"
+    - "arm_link_3"
+    - "arm_link_4"
+    - "gripper_base_link"
+    - "gripper_servo_link"
+    - "gripper_finger_link_1"
+    - "gripper_finger_link_2"
