@@ -1,0 +1,22 @@
+diff_drive:
+  # Robot limits
+  max_wheel_vel: 5.0   # [rad/s]
+  max_linear_vel: 0.17 # [m/s]
+  max_linear_acc: 2.5  # [m/s²]
+  max_angular_vel: 2.0 # [rad/s]
+  max_angular_acc: 6.0 # [rad/s²]0
+
+  # Diff Drive Control
+  base_frame: "base_footprint"
+  odom_frame: "odom"
+  marker_scale: 0.5
+
+  pos_tolerance: 0.02
+  angular_tolerance: 0.02
+  p_gain: 1.5
+  
+  # Joystick settings
+  linear_joy_axis: 1
+  angular_joy_axis: 0
+  enable_button: 7
+  disable_button: 6

@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+
+<launch>
+  <arg name="robot_name" default="turtlebot3" />
+  <arg name="ground_truth" default="False" />
+
+  <include file="$(find turtlebot3_diff_drive_exercise)/launch/diff_drive.launch">
+    <arg name="ns" value="$(arg robot_name)" />
+    <arg name="nav_frame" value="world" />
+    <arg name="ground_truth" value="$(arg ground_truth)" />
+  </include>
+</launch>

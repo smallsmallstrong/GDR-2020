@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+
+<launch>
+  <arg name="ns" default="turtlebot3" />
+  <arg name="nav_frame" default="odom" />
+  <arg name="ground_truth" default="False" />
+
+  <group ns="$(arg ns)">
+    <!-- load config into parameter server -->
+    <rosparam file="$(find turtlebot3_diff_drive_exercise)/config/diff_drive_config.yaml" command="load" />
+    <param name="diff_drive/nav_frame" value="$(arg nav_frame)" />
+
+    <!-- start diff_drive -->
+    <node name="turtlebot3_diff_drive" pkg="turtlebot3_diff_drive_exercise" type="diff_drive_node" output="screen">
+      <remap from="odom" to="odom_trash" if="$(arg ground_truth)"/>
+    </node>
+
+    <!-- start joystick node -->
+    <node name="turtlebot3_diff_drive_joy" pkg="turtlebot3_diff_drive_exercise" type="diff_drive_joy_node" />
+  </group>
+</launch>

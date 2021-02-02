@@ -1,0 +1,263 @@
+{
+  "keys": {},
+  "groups": {
+    "pluginmanager": {
+      "keys": {
+        "running-plugins": {
+          "type": "repr",
+          "repr": "{u'turtlebot3_rqt_widgets/WheelControlPlugin': [1], u'hector_generic_rqt_widgets/DiffDriveControlPlugin': [1]}"
+        }
+      },
+      "groups": {
+        "plugin__rqt_rviz__RViz__1": {
+          "keys": {},
+          "groups": {
+            "dock_widget__": {
+              "keys": {
+                "dockable": {
+                  "type": "repr",
+                  "repr": "u'true'"
+                },
+                "parent": {
+                  "type": "repr",
+                  "repr": "None"
+                },
+                "dock_widget_title": {
+                  "type": "repr",
+                  "repr": "u'RViz[*]'"
+                }
+              },
+              "groups": {}
+            }
+          }
+        },
+        "plugin__rqt_rviz_wrapper__RvizWrapper__1": {
+          "keys": {},
+          "groups": {
+            "dock_widget__RvizWrapperWidget": {
+              "keys": {
+                "dockable": {
+                  "type": "repr",
+                  "repr": "False"
+                },
+                "parent": {
+                  "type": "repr",
+                  "repr": "None"
+                },
+                "dock_widget_title": {
+                  "type": "repr",
+                  "repr": "u'RViz Wrapper'"
+                }
+              },
+              "groups": {}
+            }
+          }
+        },
+        "plugin__rqt_publisher__Publisher__1": {
+          "keys": {},
+          "groups": {
+            "dock_widget__PublisherWidget": {
+              "keys": {
+                "dockable": {
+                  "type": "repr",
+                  "repr": "u'true'"
+                },
+                "parent": {
+                  "type": "repr",
+                  "repr": "None"
+                },
+                "dock_widget_title": {
+                  "type": "repr",
+                  "repr": "u'Message Publisher'"
+                }
+              },
+              "groups": {}
+            },
+            "plugin": {
+              "keys": {
+                "publishers": {
+                  "type": "repr",
+                  "repr": "u\"[{'topic_name': '/turtlebot3/joints/dynamixel_arm_control/set_torque', 'type_name': 'std_msgs/Bool', 'enabled': False, 'rate': 1.0, 'expressions': {u'/turtlebot3/joints/dynamixel_arm_control/set_torque/data': 'True'}, 'publisher_id': 0, 'counter': 0}, {'topic_name': '/turtlebot3/joints/arm_joint_1_position/command', 'type_name': 'std_msgs/Float64', 'enabled': False, 'rate': 1.0, 'expressions': {u'/turtlebot3/joints/arm_joint_1_position/command/data': '1'}, 'publisher_id': 1, 'counter': 0}, {'topic_name': '/turtlebot3/joints/arm_joint_2_position/command', 'type_name': 'std_msgs/Float64', 'enabled': False, 'rate': 1.0, 'expressions': {u'/turtlebot3/joints/arm_joint_2_position/command/data': '0'}, 'publisher_id': 2, 'counter': 0}, {'topic_name': '/turtlebot3/joints/wheel_left_controller/command', 'type_name': 'std_msgs/Float64', 'enabled': False, 'rate': 1.0, 'expressions': {u'/turtlebot3/joints/wheel_left_controller/command/data': '20.0'}, 'publisher_id': 3, 'counter': 0}, {'topic_name': '/turtlebot3/joints/wheel_right_controller/command', 'type_name': 'std_msgs/Float64', 'enabled': False, 'rate': 1.0, 'expressions': {u'/turtlebot3/joints/wheel_right_controller/command/data': '0.0'}, 'publisher_id': 4, 'counter': 0}, {'topic_name': '/turtlebot3/joints/gripper_servo_position/command', 'type_name': 'std_msgs/Float64', 'enabled': False, 'rate': 1.0, 'expressions': {u'/turtlebot3/joints/gripper_servo_position/command/data': '0'}, 'publisher_id': 5, 'counter': 0}, {'topic_name': '/turtlebot3/joints/gripper_servo_effort/command', 'type_name': 'std_msgs/Float64', 'enabled': False, 'rate': 1.0, 'expressions': {u'/turtlebot3/joints/gripper_servo_effort/command/data': '-5'}, 'publisher_id': 6, 'counter': 0}, {'topic_name': '/turtlebot3/joints/arm_joint_3_effort/command', 'type_name': 'std_msgs/Float64', 'enabled': False, 'rate': 1.0, 'expressions': {u'/turtlebot3/joints/arm_joint_3_effort/command/data': '-4'}, 'publisher_id': 7, 'counter': 0}, {'topic_name': '/turtlebot3/joints/wheel_left_controller/command', 'type_name': 'std_msgs/Float64', 'enabled': False, 'rate': 1.0, 'expressions': {u'/turtlebot3/joints/wheel_left_controller/command/data': '10.0'}, 'publisher_id': 8, 'counter': 0}, {'type_name': 'std_msgs/Float64', 'topic_name': '/gazebo/turtlebot3/joints/gripper_servo_joint_position/command', 'enabled': False, 'rate': 1.0, 'expressions': {u'/gazebo/turtlebot3/joints/gripper_servo_joint_position/command/data': '0.0'}, 'publisher_id': 9, 'counter': 0}, {'type_name': 'std_msgs/Float64', 'topic_name': '/gazebo/turtlebot3/joints/arm_joint_4_position/command', 'enabled': False, 'rate': 1.0, 'expressions': {u'/gazebo/turtlebot3/joints/arm_joint_4_position/command/data': '1.0'}, 'publisher_id': 10, 'counter': 0}]\""
+                }
+              },
+              "groups": {}
+            }
+          }
+        },
+        "plugin__turtlebot3_rqt_widgets__WheelControlPlugin__1": {
+          "keys": {},
+          "groups": {
+            "dock_widget__": {
+              "keys": {
+                "dockable": {
+                  "type": "repr",
+                  "repr": "True"
+                },
+                "parent": {
+                  "type": "repr",
+                  "repr": "None"
+                },
+                "dock_widget_title": {
+                  "type": "repr",
+                  "repr": "u''"
+                }
+              },
+              "groups": {}
+            },
+            "dock_widget__WheelControlUi": {
+              "keys": {
+                "dockable": {
+                  "type": "repr",
+                  "repr": "True"
+                },
+                "parent": {
+                  "type": "repr",
+                  "repr": "None"
+                },
+                "dock_widget_title": {
+                  "type": "repr",
+                  "repr": "u'Wheel Control'"
+                }
+              },
+              "groups": {}
+            }
+          }
+        },
+        "plugin__hector_generic_rqt_widgets__DiffDriveControlPlugin__1": {
+          "keys": {},
+          "groups": {
+            "dock_widget__": {
+              "keys": {
+                "dockable": {
+                  "type": "repr",
+                  "repr": "True"
+                },
+                "parent": {
+                  "type": "repr",
+                  "repr": "None"
+                },
+                "dock_widget_title": {
+                  "type": "repr",
+                  "repr": "u''"
+                }
+              },
+              "groups": {}
+            },
+            "dock_widget__DiffDriveControlUi": {
+              "keys": {
+                "dockable": {
+                  "type": "repr",
+                  "repr": "True"
+                },
+                "parent": {
+                  "type": "repr",
+                  "repr": "None"
+                },
+                "dock_widget_title": {
+                  "type": "repr",
+                  "repr": "u'Diff Drive Control'"
+                }
+              },
+              "groups": {}
+            }
+          }
+        },
+        "plugin__rqt_joint_trajectory_controller__JointTrajectoryController__1": {
+          "keys": {},
+          "groups": {
+            "plugin": {
+              "keys": {
+                "jtc_name": {
+                  "type": "repr",
+                  "repr": "None"
+                },
+                "cm_ns": {
+                  "type": "repr",
+                  "repr": "None"
+                }
+              },
+              "groups": {}
+            },
+            "dock_widget__JointTrajectoryControllerUi": {
+              "keys": {
+                "dockable": {
+                  "type": "repr",
+                  "repr": "u'true'"
+                },
+                "parent": {
+                  "type": "repr",
+                  "repr": "None"
+                },
+                "dock_widget_title": {
+                  "type": "repr",
+                  "repr": "u'Joint trajectory controller'"
+                }
+              },
+              "groups": {}
+            }
+          }
+        },
+        "plugin__rqt_tf_tree__RosTfTree__1": {
+          "keys": {},
+          "groups": {
+            "dock_widget__RosTfTreeUi": {
+              "keys": {
+                "dockable": {
+                  "type": "repr",
+                  "repr": "u'true'"
+                },
+                "parent": {
+                  "type": "repr",
+                  "repr": "None"
+                },
+                "dock_widget_title": {
+                  "type": "repr",
+                  "repr": "u'TF Tree'"
+                }
+              },
+              "groups": {}
+            },
+            "plugin": {
+              "keys": {
+                "highlight_connections_check_box_state": {
+                  "type": "repr",
+                  "repr": "u'true'"
+                },
+                "auto_fit_graph_check_box_state": {
+                  "type": "repr",
+                  "repr": "u'true'"
+                }
+              },
+              "groups": {}
+            }
+          }
+        }
+      }
+    },
+    "mainwindow": {
+      "keys": {
+        "geometry": {
+          "type": "repr(QByteArray.hex)",
+          "repr(QByteArray.hex)": "QtCore.QByteArray('01d9d0cb000200000000029900000055000003b4000002c90000029900000071000003b4000002c900000001000000000780')",
+          "pretty-print": "       U       q         "
+        },
+        "state": {
+          "type": "repr(QByteArray.hex)",
+          "repr(QByteArray.hex)": "QtCore.QByteArray('000000ff00000000fd00000001000000030000011c00000243fc0100000008fb0000004c007200710074005f00740066005f0074007200650065005f005f0052006f0073005400660054007200650065005f005f0031005f005f0052006f0073005400660054007200650065005500690100000000000003a00000000000000000fb00000058007200710074005f007000750062006c00690073006800650072005f005f005000750062006c00690073006800650072005f005f0031005f005f005000750062006c006900730068006500720057006900640067006500740100000000000004cd0000000000000000fb000000b4007200710074005f006a006f0069006e0074005f007400720061006a006500630074006f00720079005f0063006f006e00740072006f006c006c00650072005f005f004a006f0069006e0074005400720061006a006500630074006f007200790043006f006e00740072006f006c006c00650072005f005f0031005f005f004a006f0069006e0074005400720061006a006500630074006f007200790043006f006e00740072006f006c006c006500720055006901000000000000073f0000000000000000fb00000026007200710074005f007200760069007a005f005f005200560069007a005f005f0031005f005f01000000000000073f0000000000000000fc00000000000006030000000000fffffffc0100000002fb00000066007200710074005f007200760069007a005f0077007200610070007000650072005f005f005200760069007a0057007200610070007000650072005f005f0031005f005f005200760069007a00570072006100700070006500720057006900640067006500740100000000000006030000000000000000fb000000620074007500720074006c00650062006f00740033005f0064006900660066005f00640072006900760065005f00750069005f005f0057006800650065006c0043006f006e00740072006f006c0050006c007500670069006e005f005f0031005f005f0100000607000001380000000000000000fc000000000000015f0000000000fffffffc0200000002fb0000005e0074007500720074006c00650062006f00740033005f007200710074005f0077006900640067006500740073005f005f0057006800650065006c0043006f006e00740072006f006c0050006c007500670069006e005f005f0031005f005f0100000000000002130000000000000000fb000000660074007500720074006c00650062006f00740033005f007200710074005f0077006900640067006500740073005f005f0044006900660066004400720069007600650043006f006e00740072006f006c0050006c007500670069006e005f005f0031005f005f0100000219000001130000000000000000fc000000000000011c0000000000fffffffc0200000001fb0000008a0074007500720074006c00650062006f00740033005f007200710074005f0077006900640067006500740073005f005f0044006900660066004400720069007600650043006f006e00740072006f006c0050006c007500670069006e005f005f0031005f005f0044006900660066004400720069007600650043006f006e00740072006f006c005500690100000157000000ec0000000000000000fc000000000000011c0000011c00fffffffc0200000002fb0000007a0074007500720074006c00650062006f00740033005f007200710074005f0077006900640067006500740073005f005f0057006800650065006c0043006f006e00740072006f006c0050006c007500670069006e005f005f0031005f005f0057006800650065006c0043006f006e00740072006f006c0055006901000000000000012f0000009400fffffffb000000920068006500630074006f0072005f00670065006e0065007200690063005f007200710074005f0077006900640067006500740073005f005f0044006900660066004400720069007600650043006f006e00740072006f006c0050006c007500670069006e005f005f0031005f005f0044006900660066004400720069007600650043006f006e00740072006f006c0055006901000001350000010e000000b200ffffff0000011c0000000000000004000000040000000800000008fc00000001000000030000000100000036004d0069006e0069006d0069007a006500640044006f0063006b00570069006400670065007400730054006f006f006c0062006100720000000000ffffffff0000000000000000')",
+          "pretty-print": "                 Lrqt_tf_tree__RosTfTree__1__RosTfTreeUi          Xrqt_publisher__Publisher__1__PublisherWidget           rqt_joint_trajectory_controller__JointTrajectoryController__1__JointTrajectoryControllerUi          &rqt_rviz__RViz__1__                                                                                                                                         8                 ^turtlebot3_rqt_widgets__WheelControlPlugin__1__          fturtlebot3_rqt_widgets__DiffDriveControlPlugin__1__                                                                                             W                   zturtlebot3_rqt_widgets__WheelControlPlugin__1__WheelControlUi           hector_generic_rqt_widgets__DiffDriveControlPlugin__1__DiffDriveControlUi                            6MinimizedDockWidgetsToolbar        "
+        }
+      },
+      "groups": {
+        "toolbar_areas": {
+          "keys": {
+            "MinimizedDockWidgetsToolbar": {
+              "type": "repr",
+              "repr": "8"
+            }
+          },
+          "groups": {}
+        }
+      }
+    }
+  }
+}
