@@ -1,0 +1,351 @@
+{
+  "keys": {},
+  "groups": {
+    "pluginmanager": {
+      "keys": {
+        "running-plugins": {
+          "type": "repr",
+          "repr": "{u'MultiplotPlugin': [1], u'hector_generic_rqt_widgets/GazeboInterfacePlugin': [1], u'rqt_joint_trajectory_controller/JointTrajectoryController': [1]}"
+        }
+      },
+      "groups": {
+        "plugin__rqt_rviz__RViz__1": {
+          "keys": {},
+          "groups": {
+            "dock_widget__": {
+              "keys": {
+                "dockable": {
+                  "type": "repr",
+                  "repr": "u'true'"
+                },
+                "parent": {
+                  "type": "repr",
+                  "repr": "None"
+                },
+                "dock_widget_title": {
+                  "type": "repr",
+                  "repr": "u'RViz[*]'"
+                }
+              },
+              "groups": {}
+            }
+          }
+        },
+        "plugin__rqt_rviz_wrapper__RvizWrapper__1": {
+          "keys": {},
+          "groups": {
+            "dock_widget__RvizWrapperWidget": {
+              "keys": {
+                "dockable": {
+                  "type": "repr",
+                  "repr": "False"
+                },
+                "parent": {
+                  "type": "repr",
+                  "repr": "None"
+                },
+                "dock_widget_title": {
+                  "type": "repr",
+                  "repr": "u'RViz Wrapper'"
+                }
+              },
+              "groups": {}
+            }
+          }
+        },
+        "plugin__MultiplotPlugin__1": {
+          "keys": {},
+          "groups": {
+            "dock_widget__MultiplotWidget": {
+              "keys": {
+                "dockable": {
+                  "type": "repr",
+                  "repr": "True"
+                },
+                "parent": {
+                  "type": "repr",
+                  "repr": "None"
+                },
+                "dock_widget_title": {
+                  "type": "repr",
+                  "repr": "u'Multiplot - [file:///home/ubunturos/turtle/src/tuda_turtlebot3_exercises/turtlebot3_arm_controller_exercise/config/arm_joints_data.xml]'"
+                }
+              },
+              "groups": {}
+            },
+            "plugin": {
+              "keys": {},
+              "groups": {
+                "history": {
+                  "keys": {
+                    "max_length": {
+                      "type": "repr",
+                      "repr": "10"
+                    },
+                    "config_1": {
+                      "type": "repr",
+                      "repr": "u'file:///home/ubunturos/turtle/config/multiplot/arm_joints.xml'"
+                    },
+                    "config_0": {
+                      "type": "repr",
+                      "repr": "u'file:///home/ubunturos/turtle/src/tuda_turtlebot3_exercises/turtlebot3_arm_controller_exercise/config/arm_joints_data.xml'"
+                    }
+                  },
+                  "groups": {}
+                }
+              }
+            }
+          }
+        },
+        "plugin__rqt_joint_trajectory_controller__JointTrajectoryController__1": {
+          "keys": {},
+          "groups": {
+            "plugin": {
+              "keys": {
+                "jtc_name": {
+                  "type": "repr",
+                  "repr": "[]"
+                },
+                "cm_ns": {
+                  "type": "repr",
+                  "repr": "[]"
+                }
+              },
+              "groups": {}
+            },
+            "dock_widget__JointTrajectoryControllerUi": {
+              "keys": {
+                "dockable": {
+                  "type": "repr",
+                  "repr": "True"
+                },
+                "parent": {
+                  "type": "repr",
+                  "repr": "None"
+                },
+                "dock_widget_title": {
+                  "type": "repr",
+                  "repr": "u'Joint trajectory controller'"
+                }
+              },
+              "groups": {}
+            }
+          }
+        },
+        "plugin__rqt_publisher__Publisher__1": {
+          "keys": {},
+          "groups": {
+            "dock_widget__PublisherWidget": {
+              "keys": {
+                "dockable": {
+                  "type": "repr",
+                  "repr": "u'true'"
+                },
+                "parent": {
+                  "type": "repr",
+                  "repr": "None"
+                },
+                "dock_widget_title": {
+                  "type": "repr",
+                  "repr": "u'Message Publisher'"
+                }
+              },
+              "groups": {}
+            },
+            "plugin": {
+              "keys": {
+                "publishers": {
+                  "type": "repr",
+                  "repr": "u\"[{'topic_name': '/turtlebot3/joints/dynamixel_arm_control/set_torque', 'type_name': 'std_msgs/Bool', 'enabled': False, 'rate': 1.0, 'expressions': {u'/turtlebot3/joints/dynamixel_arm_control/set_torque/data': 'True'}, 'publisher_id': 0, 'counter': 0}, {'topic_name': '/turtlebot3/joints/arm_joint_1_position/command', 'type_name': 'std_msgs/Float64', 'enabled': False, 'rate': 1.0, 'expressions': {u'/turtlebot3/joints/arm_joint_1_position/command/data': '1'}, 'publisher_id': 1, 'counter': 0}, {'topic_name': '/turtlebot3/joints/arm_joint_2_position/command', 'type_name': 'std_msgs/Float64', 'enabled': False, 'rate': 1.0, 'expressions': {u'/turtlebot3/joints/arm_joint_2_position/command/data': '0'}, 'publisher_id': 2, 'counter': 0}, {'topic_name': '/turtlebot3/joints/wheel_left_controller/command', 'type_name': 'std_msgs/Float64', 'enabled': False, 'rate': 1.0, 'expressions': {u'/turtlebot3/joints/wheel_left_controller/command/data': '20.0'}, 'publisher_id': 3, 'counter': 0}, {'topic_name': '/turtlebot3/joints/wheel_right_controller/command', 'type_name': 'std_msgs/Float64', 'enabled': False, 'rate': 1.0, 'expressions': {u'/turtlebot3/joints/wheel_right_controller/command/data': '0.0'}, 'publisher_id': 4, 'counter': 0}, {'topic_name': '/turtlebot3/joints/gripper_servo_position/command', 'type_name': 'std_msgs/Float64', 'enabled': False, 'rate': 1.0, 'expressions': {u'/turtlebot3/joints/gripper_servo_position/command/data': '0'}, 'publisher_id': 5, 'counter': 0}, {'topic_name': '/turtlebot3/joints/gripper_servo_effort/command', 'type_name': 'std_msgs/Float64', 'enabled': False, 'rate': 1.0, 'expressions': {u'/turtlebot3/joints/gripper_servo_effort/command/data': '-5'}, 'publisher_id': 6, 'counter': 0}, {'topic_name': '/turtlebot3/joints/arm_joint_3_effort/command', 'type_name': 'std_msgs/Float64', 'enabled': False, 'rate': 1.0, 'expressions': {u'/turtlebot3/joints/arm_joint_3_effort/command/data': '-4'}, 'publisher_id': 7, 'counter': 0}, {'topic_name': '/turtlebot3/joints/wheel_left_controller/command', 'type_name': 'std_msgs/Float64', 'enabled': False, 'rate': 1.0, 'expressions': {u'/turtlebot3/joints/wheel_left_controller/command/data': '10.0'}, 'publisher_id': 8, 'counter': 0}, {'type_name': 'std_msgs/Float64', 'topic_name': '/gazebo/turtlebot3/joints/gripper_servo_joint_position/command', 'enabled': False, 'rate': 1.0, 'expressions': {u'/gazebo/turtlebot3/joints/gripper_servo_joint_position/command/data': '0.0'}, 'publisher_id': 9, 'counter': 0}, {'type_name': 'std_msgs/Float64', 'topic_name': '/gazebo/turtlebot3/joints/arm_joint_4_position/command', 'enabled': False, 'rate': 1.0, 'expressions': {u'/gazebo/turtlebot3/joints/arm_joint_4_position/command/data': '1.0'}, 'publisher_id': 10, 'counter': 0}]\""
+                }
+              },
+              "groups": {}
+            }
+          }
+        },
+        "plugin__turtlebot3_rqt_widgets__WheelControlPlugin__1": {
+          "keys": {},
+          "groups": {
+            "dock_widget__": {
+              "keys": {
+                "dockable": {
+                  "type": "repr",
+                  "repr": "True"
+                },
+                "parent": {
+                  "type": "repr",
+                  "repr": "None"
+                },
+                "dock_widget_title": {
+                  "type": "repr",
+                  "repr": "u''"
+                }
+              },
+              "groups": {}
+            }
+          }
+        },
+        "plugin__hector_generic_rqt_widgets__DiffDriveControlPlugin__1": {
+          "keys": {},
+          "groups": {
+            "dock_widget__": {
+              "keys": {
+                "dockable": {
+                  "type": "repr",
+                  "repr": "True"
+                },
+                "parent": {
+                  "type": "repr",
+                  "repr": "None"
+                },
+                "dock_widget_title": {
+                  "type": "repr",
+                  "repr": "u''"
+                }
+              },
+              "groups": {}
+            }
+          }
+        },
+        "plugin__hector_generic_rqt_widgets__GazeboPlugin__1": {
+          "keys": {},
+          "groups": {
+            "dock_widget__": {
+              "keys": {
+                "dockable": {
+                  "type": "repr",
+                  "repr": "True"
+                },
+                "parent": {
+                  "type": "repr",
+                  "repr": "None"
+                },
+                "dock_widget_title": {
+                  "type": "repr",
+                  "repr": "u''"
+                }
+              },
+              "groups": {}
+            },
+            "dock_widget__GazeboUi": {
+              "keys": {
+                "dockable": {
+                  "type": "repr",
+                  "repr": "True"
+                },
+                "parent": {
+                  "type": "repr",
+                  "repr": "None"
+                },
+                "dock_widget_title": {
+                  "type": "repr",
+                  "repr": "u'Gazebo'"
+                }
+              },
+              "groups": {}
+            }
+          }
+        },
+        "plugin__rqt_tf_tree__RosTfTree__1": {
+          "keys": {},
+          "groups": {
+            "dock_widget__RosTfTreeUi": {
+              "keys": {
+                "dockable": {
+                  "type": "repr",
+                  "repr": "u'true'"
+                },
+                "parent": {
+                  "type": "repr",
+                  "repr": "None"
+                },
+                "dock_widget_title": {
+                  "type": "repr",
+                  "repr": "u'TF Tree'"
+                }
+              },
+              "groups": {}
+            },
+            "plugin": {
+              "keys": {
+                "highlight_connections_check_box_state": {
+                  "type": "repr",
+                  "repr": "u'true'"
+                },
+                "auto_fit_graph_check_box_state": {
+                  "type": "repr",
+                  "repr": "u'true'"
+                }
+              },
+              "groups": {}
+            }
+          }
+        },
+        "plugin__hector_generic_rqt_widgets__GazeboInterfacePlugin__1": {
+          "keys": {},
+          "groups": {
+            "dock_widget__GazeboUi": {
+              "keys": {
+                "dockable": {
+                  "type": "repr",
+                  "repr": "True"
+                },
+                "parent": {
+                  "type": "repr",
+                  "repr": "None"
+                },
+                "dock_widget_title": {
+                  "type": "repr",
+                  "repr": "u'Gazebo'"
+                }
+              },
+              "groups": {}
+            },
+            "dock_widget__GazeboInterfaceUi": {
+              "keys": {
+                "dockable": {
+                  "type": "repr",
+                  "repr": "True"
+                },
+                "parent": {
+                  "type": "repr",
+                  "repr": "None"
+                },
+                "dock_widget_title": {
+                  "type": "repr",
+                  "repr": "u'Gazebo Interface'"
+                }
+              },
+              "groups": {}
+            }
+          }
+        }
+      }
+    },
+    "mainwindow": {
+      "keys": {
+        "geometry": {
+          "type": "repr(QByteArray.hex)",
+          "repr(QByteArray.hex)": "QtCore.QByteArray('01d9d0cb00020000000000800000009100000763000003d200000080000000ad00000763000003d200000001000000000780')",
+          "pretty-print": "         c       c       "
+        },
+        "state": {
+          "type": "repr(QByteArray.hex)",
+          "repr(QByteArray.hex)": "QtCore.QByteArray('000000ff00000000fd0000000100000003000006e400000310fc0100000007fb0000004c007200710074005f00740066005f0074007200650065005f005f0052006f0073005400660054007200650065005f005f0031005f005f0052006f0073005400660054007200650065005500690100000000000003a00000000000000000fb00000058007200710074005f007000750062006c00690073006800650072005f005f005000750062006c00690073006800650072005f005f0031005f005f005000750062006c006900730068006500720057006900640067006500740100000000000004cd0000000000000000fc00000000000001660000012a00fffffffc0200000005fb000000520074007500720074006c00650062006f00740033005f007200710074005f0077006900640067006500740073005f005f00470061007a00650062006f0050006c007500670069006e005f005f0031005f005f0100000000000000710000000000000000fb000000620074007500720074006c00650062006f00740033005f007200710074005f0077006900640067006500740073005f005f00470061007a00650062006f0050006c007500670069006e005f005f0031005f005f00470061007a00650062006f005500690100000000000000540000000000000000fb000000740074007500720074006c00650062006f00740033005f007200710074005f0077006900640067006500740073005f005f00470061007a00650062006f0049006e00740065007200660061006300650050006c007500670069006e005f005f0031005f005f00470061007a00650062006f005500690100000000000000650000000000000000fb0000008e0068006500630074006f0072005f00670065006e0065007200690063005f007200710074005f0077006900640067006500740073005f005f00470061007a00650062006f0049006e00740065007200660061006300650050006c007500670069006e005f005f0031005f005f00470061007a00650062006f0049006e0074006500720066006100630065005500690100000000000000860000008600fffffffb000000b4007200710074005f006a006f0069006e0074005f007400720061006a006500630074006f00720079005f0063006f006e00740072006f006c006c00650072005f005f004a006f0069006e0074005400720061006a006500630074006f007200790043006f006e00740072006f006c006c00650072005f005f0031005f005f004a006f0069006e0074005400720061006a006500630074006f007200790043006f006e00740072006f006c006c0065007200550069010000008c000002840000018900fffffffb00000026007200710074005f007200760069007a005f005f005200560069007a005f005f0031005f005f01000000000000073f0000000000000000fc00000000000006030000000000fffffffc0100000002fb00000066007200710074005f007200760069007a005f0077007200610070007000650072005f005f005200760069007a0057007200610070007000650072005f005f0031005f005f005200760069007a00570072006100700070006500720057006900640067006500740100000000000006030000000000000000fb000000620074007500720074006c00650062006f00740033005f0064006900660066005f00640072006900760065005f00750069005f005f0057006800650065006c0043006f006e00740072006f006c0050006c007500670069006e005f005f0031005f005f0100000607000001380000000000000000fc000000000000015f0000000000fffffffc0200000002fb0000005e0074007500720074006c00650062006f00740033005f007200710074005f0077006900640067006500740073005f005f0057006800650065006c0043006f006e00740072006f006c0050006c007500670069006e005f005f0031005f005f0100000000000002130000000000000000fb000000660074007500720074006c00650062006f00740033005f007200710074005f0077006900640067006500740073005f005f0044006900660066004400720069007600650043006f006e00740072006f006c0050006c007500670069006e005f005f0031005f005f01000000000000032c0000000000000000fb00000046004d0075006c007400690070006c006f00740050006c007500670069006e005f005f0031005f005f004d0075006c007400690070006c006f0074005700690064006700650074010000016c000005780000048600ffffff000006e40000000000000004000000040000000800000008fc00000001000000030000000100000036004d0069006e0069006d0069007a006500640044006f0063006b00570069006400670065007400730054006f006f006c0062006100720000000000ffffffff0000000000000000')",
+          "pretty-print": "                 Lrqt_tf_tree__RosTfTree__1__RosTfTreeUi          Xrqt_publisher__Publisher__1__PublisherWidget            f *                                                    q                                                           T                                                                    e                                                                                                                                                                                                                    ?                 frqt_rviz_wrapper__RvizWrapper__1__RvizWrapperWidget          bturtlebot3_diff_drive_ui__WheelControlPlugin__1__            _                                                                                                                          ,                                           l x                                                            "
+        }
+      },
+      "groups": {
+        "toolbar_areas": {
+          "keys": {
+            "MinimizedDockWidgetsToolbar": {
+              "type": "repr",
+              "repr": "8"
+            }
+          },
+          "groups": {}
+        }
+      }
+    }
+  }
+}

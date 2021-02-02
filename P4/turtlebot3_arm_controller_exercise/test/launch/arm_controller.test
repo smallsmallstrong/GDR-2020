@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+
+<launch>
+  <arg name="ns" default="turtlebot3" />
+  <group ns="$(arg ns)/joints">
+    <!-- load config into parameter server -->
+    <rosparam file="$(find turtlebot3_arm_controller_exercise)/config/arm_controller_config.yaml" command="load" />
+    <test test-name="arm_controller_test" pkg="turtlebot3_arm_controller_exercise" type="arm_controller_test" />
+  </group>
+</launch>
+

@@ -1,0 +1,8 @@
+arm_controller:
+  control_rate: 1000 # [Hz]
+
+  joints:
+    - { name: arm_joint_1, p: 50.0, i: 40.0, d: 1.0, max_effort: 1.85} # max_effort: 4.1
+    - { name: arm_joint_2, p: 50.0, i: 40.0, d: 1.0, max_effort: 1.85} # max_effort: 4.1
+    - { name: arm_joint_3, p: 50.0, i: 40.0, d: 1.0, max_effort: 1.85} # max_effort: 4.1
+    - { name: arm_joint_4, p: 50.0, i: 40.0, d: 1.0, max_effort: 1.85} # max_effort: 4.1
